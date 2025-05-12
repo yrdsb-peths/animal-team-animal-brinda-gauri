@@ -13,7 +13,7 @@ public class TitleScreen extends World
         super(600, 400, 1); 
         
         // Set the background image
-        setBackground(new GreenfootImage("background.png"));
+        setBackground(new GreenfootImage("titleBackground2.jpg"));
 
         addObject(titleLabel, getWidth()/2, 100);
         prepare();
