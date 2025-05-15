@@ -9,8 +9,9 @@ public class Elephant extends Actor
     //Direction the elephant is facing
     String facing = "right";
     SimpleTimer animationTimer = new SimpleTimer();
-    /*
-     * Constructor - The code that gets run one time when object is created
+    
+    /**
+     * Creates the elephant animation
      */
     public Elephant()
     {
@@ -29,11 +30,11 @@ public class Elephant extends Actor
         
         animationTimer.mark();
         
-        // Initial elephant image
+        //Sets the initial image
         setImage(idleRight[0]);
     }
     
-    /*
+    /**
      * Animate the elephant
      */
     int imageIndex = 0;
@@ -58,6 +59,9 @@ public class Elephant extends Actor
         
     }
     
+    /**
+     * Changes the direction of the elephant based on the arrow key pressed
+     */
     public void act()
     {
         // Add your action code here.

@@ -18,7 +18,7 @@ public class TitleScreen extends World
         prepare();
     }
 
-    /*
+    /**
      * The main world act loop
      */
     public void act()

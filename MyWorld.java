@@ -5,6 +5,9 @@ public class MyWorld extends World {
     Label scoreLabel;
     int level = 1;
     
+    /**
+     * Creates the world and adds the objects to the screen.
+     */
     public MyWorld() {
         super(600, 400, 1, false);
         

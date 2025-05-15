@@ -2,7 +2,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class Apple extends Actor
 {
-    //Set Apple Image 
+    /**
+     * Set Apple Image 
+     */
     public Apple()
     {
         GreenfootImage myApple = new GreenfootImage("apple.png");
@@ -11,6 +13,10 @@ public class Apple extends Actor
 
     int speed = 1;
     
+    
+    /**
+     * Sets the location of the apple, and removes if it reaches the bottom
+     */
     public void act()
     {
         // Add your action code here.
@@ -28,6 +34,9 @@ public class Apple extends Actor
         
     }
     
+    /**
+     * Increases the speed of the apple
+     */
     public void setSpeed(int spd)
     {
         speed = spd;
